@@ -68,3 +68,14 @@ Start the local development server with auto-reloading:
 
 ```sh
 npm run dev
+
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+
+---
+
+Built with ❤️ by Strikeee09
+
+
