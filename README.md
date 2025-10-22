@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 💳 Credit Card Statement Parser
 
-## Project info
+[![React](https://img.shields.io/badge/React-18.x-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![shadcn/ui](https://img.shields.io/badge/shadcn/ui-%23000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
 
-**URL**: https://lovable.dev/projects/9708e0c9-74c3-44c6-843a-7ea611d4f012
+A modern, web-based tool built to parse, analyze, and visualize your credit card statements with ease.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+-   **Easy Upload:** Upload your PDF or CSV credit card statements directly in the browser.
+-   **Instant Parsing:** Automatically extracts key information like transaction dates, descriptions, amounts, and categories.
+-   **Data Visualization:** View your spending habits with interactive charts and graphs.
+-   **Transaction Table:** Displays all transactions in a clean, sortable, and searchable table.
+-   **Export Data:** Export your parsed data to CSV or JSON for use in other applications.
+-   **Secure & Private:** All processing is done client-side. Your financial data never leaves your computer.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9708e0c9-74c3-44c6-843a-7ea611d4f012) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+This project is a modern web application built with a cutting-edge frontend stack:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+-   **Framework:** [React](https://reactjs.org/)
+-   **Build Tool:** [Vite](https://vitejs.dev/)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🏁 Getting Started
+
+Follow these instructions to get a local copy of the project up and running for development or testing.
+
+### Prerequisites
+
+You must have [Node.js](https://nodejs.org/) (v18 or higher) and [npm](https://www.npmjs.com/) (or [bun](https://bun.sh/)) installed on your machine.
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/Strikeee09/credit-card-statement-parserrr.git](https://github.com/Strikeee09/credit-card-statement-parserrr.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```sh
+    cd credit-card-statement-parserrr
+    ```
+
+3.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+    *(Or if you use `bun`):*
+    ```sh
+    bun install
+    ```
+
+### Running the Development Server
+
+Start the local development server with auto-reloading:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9708e0c9-74c3-44c6-843a-7ea611d4f012) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
